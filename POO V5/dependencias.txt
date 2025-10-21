@@ -1,0 +1,6 @@
+Python
+Pylance
+pymysql
+Enum
+datetime
+cryptography

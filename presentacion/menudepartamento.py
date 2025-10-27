@@ -50,8 +50,8 @@ def menudepartamento():
         print("2. Editar Departamento")
         print("3. Eliminar Departamento")
         print("4. Buscar Departamento por ID")
-        print("5. Listar todos los Departamentos")   # ← NUEVA
-        print("6. Buscar Departamentos por nombre") # ← NUEVA
+        print("5. Listar todos los Departamentos")   
+        print("6. Buscar Departamentos por nombre") 
         print("0. Volver")
         print("------------------------------------------------------------")
 

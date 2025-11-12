@@ -58,7 +58,7 @@ def _crear_empleado_runtime(*datos):
             print(" El módulo no tiene 'crear_empleado'. Pégalo en aplicacion/gestion_empleado.py")
             return
         ge.crear_empleado(*datos)
-        print("✅ Empleado creado.")
+        print("  Empleado creado.")
     except Exception as e:
         print(f"❌ Error al crear empleado: {e}")
 

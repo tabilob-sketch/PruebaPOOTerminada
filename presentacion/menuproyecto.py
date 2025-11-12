@@ -21,8 +21,8 @@ def menu_proyecto():
         print("1. Crear Proyecto")
         print("2. Editar Proyecto")
         print("3. Eliminar Proyecto")
-        print("4. Listar TODOS los proyectos")          # ✅ NUEVO
-        print("5. Buscar proyectos por NOMBRE")         # ✅ NUEVO
+        print("4. Listar TODOS los proyectos")          #   NUEVO
+        print("5. Buscar proyectos por NOMBRE")         #   NUEVO
         print("0. Volver")
         print("------------------------------------------------------------")
         try:
@@ -76,12 +76,12 @@ def menu_proyecto():
             gestionProyecto.eliminar_proyecto(id_proyecto)
             _pausar()
 
-        elif opcion == 4:  # ✅ LISTAR TODOS
+        elif opcion == 4:  #   LISTAR TODOS
             rows = gestionProyecto.listar_todos()
             _imprimir_listado(rows)
             _pausar()
 
-        elif opcion == 5:  # ✅ BUSCAR POR NOMBRE
+        elif opcion == 5:  #   BUSCAR POR NOMBRE
             nombre = input("Nombre (o parte): ").strip()
             rows = gestionProyecto.buscar_por_nombre(nombre)
             _imprimir_listado(rows)

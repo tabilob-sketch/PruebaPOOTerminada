@@ -112,7 +112,7 @@ class ApiPaisesService:
 
     def buscar_por_codigo(self, codigo: str) -> dict | None:
         """
-        Busca país por código ISO (alpha-2 o alpha-3), ej: "CL" o "CHL".
+        Busca país por código ISO, ej: "CL" o "CHL".
         """
         if not codigo or not isinstance(codigo, str):
             return None
